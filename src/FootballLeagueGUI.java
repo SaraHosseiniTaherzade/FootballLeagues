@@ -13,15 +13,15 @@ import java.awt.FlowLayout;
 	import javax.swing.JLabel;
 	import javax.swing.JScrollPane;
 	import javax.swing.JTable;
-public class FootballLeagueGUI {
+
 	
-public class FootbalLeagueGUI extends JFrame {
+public class FootballLeagueGUI extends JFrame {
 	
 		JButton Iran , Brazilian , Germany , Italy , France , Russia;
 		
 		JLabel okhtapos;
 		
-		public FootbalLeagueGUI() {
+		public FootballLeagueGUI() {
 			
 			super("Football games of world leagues");
 			
@@ -40,7 +40,7 @@ public class FootbalLeagueGUI extends JFrame {
 		}
 		private void addGuiComponents() {
 			
-			Iran = new JButton(loadImage("src/iran.png"));
+			Iran = new JButton(loadImage("src/iran.jpg"));
 			Iran.setBounds(40, 70, 250, 150);
 			add(Iran);
 			
@@ -52,7 +52,7 @@ public class FootbalLeagueGUI extends JFrame {
 			Germany.setBounds(40, 260, 250, 150);
 			add(Germany);
 			
-			Italy = new JButton(loadImage("src/italy.png"));
+			Italy = new JButton(loadImage("src/italy.jpg"));
 			Italy.setBounds(40, 450, 250, 150);
 			
 			add(Italy);
@@ -235,5 +235,5 @@ public class FootbalLeagueGUI extends JFrame {
 
 	
 	}
-}
+
 
